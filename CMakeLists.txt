@@ -168,7 +168,7 @@ add_relative_include_dir(${STATIC_LIB_NAME} PUBLIC PUBLIC "base/third_party/dyna
 # TODO
 add_relative_include_dir(${STATIC_LIB_NAME} PUBLIC PUBLIC "base/third_party/valgrind")
 
-set_property(TARGET ${STATIC_LIB_NAME} PROPERTY CXX_STANDARD 17)
+#set_property(TARGET ${STATIC_LIB_NAME} PROPERTY CXX_STANDARD 17)
 
 # POSITION_INDEPENDENT_CODE for -fPIC
 # -fPIC may be used to link static library into dynamic one
